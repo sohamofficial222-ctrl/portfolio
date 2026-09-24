@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Soham Kadam | Front-End Developer</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="bg-zinc-950 text-white">
+
+
+    <!-- =========================
+     NAVBAR
+========================== -->
+
+    <header class="border-b border-zinc-800 bg-zinc-950">
+
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+
+            <!-- Logo -->
+
+            <a href="#home" class="group flex items-center font-mono text-xl font-bold">
+
+                <span class="text-zinc-500">&lt;</span>
+
+                <span class="text-white transition group-hover:text-violet-400">
+                    SK
+                </span>
+
+                <span class="text-zinc-500">/&gt;</span>
+
+            </a>
+
+
+            <!-- Navigation Links -->
+
+            <div class="hidden items-center gap-8 md:flex">
+
+                <a href="#home" class="text-sm text-zinc-400 transition hover:text-white">
+                    Home
+                </a>
+
+                <a href="#about" class="text-sm text-zinc-400 transition hover:text-white">
+                    About
+                </a>
+
+                <a href="#skills" class="text-sm text-zinc-400 transition hover:text-white">
+                    Skills
+                </a>
+
+                <a href="#projects" class="text-sm text-zinc-400 transition hover:text-white">
+                    Projects
+                </a>
+
+                <a href="#education" class="text-sm text-zinc-400 transition hover:text-white">
+                    Education
+                </a>
+
+                <a href="#contact" class="text-sm text-zinc-400 transition hover:text-white">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <!-- Theme Toggle -->
+
+            <div class="theme-toggle">
+
+                <input type="checkbox" id="theme-toggle">
+
+                <label for="theme-toggle" class="theme-switch">
+
+                    <span class="theme-icon moon">☾</span>
+
+                    <span class="theme-icon sun">☀</span>
+
+                    <span class="theme-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Contact Button -->
+
+            <a href="#contact"
+                class="rounded-lg border border-violet-500/40 px-4 py-2 text-sm font-medium text-violet-400 transition hover:border-violet-400 hover:bg-violet-500/10">
+
+                Let's Talk
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+            MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+                HERO SECTION
+        ========================== -->
+
+        <section id="home" class="relative overflow-hidden bg-zinc-950">
+
+            <div class="mx-auto grid min-h-[90vh] max-w-7xl items-center gap-12 px-6 py-20 md:grid-cols-2">
+
+
+                <!-- Hero Text -->
+
+                <div>
+
+                    <p class="mb-4 font-mono text-sm text-violet-400">
+                        Hello, I'm
+                    </p>
+
+
+                    <h1 class="text-5xl font-bold tracking-tight text-white md:text-7xl">
+
+                        Soham
+                        <span class="text-violet-500">
+                            Kadam.
+                        </span>
+
+                    </h1>
+
+
+                    <h2 class="hero-roles mt-5 text-2xl font-semibold text-zinc-300 md:text-3xl">
+
+                        <span>Aspiring Front-End Developer</span>
+                        <span>Tech Enthusiast</span>
+                        <span>Problem Solver</span>
+
+                    </h2>
+
+
+                    <p class="mt-6 max-w-xl text-base leading-7 text-zinc-400 md:text-lg">
+
+                        I'm a Computer Science student interested in
+                        software development and building websites.
+                        I enjoy exploring new technologies and finding
+                        simple solutions to everyday problems.
+
+                    </p>
+
+
+                    <!-- Hero Buttons -->
+
+                    <div class="mt-8 flex flex-wrap gap-4">
+
+                        <a href="#projects"
+                            class="rounded-lg bg-violet-500 px-6 py-3 font-medium text-white transition hover:bg-violet-400">
+
+                            View My Projects
+
+                        </a>
+
+
+                        <a href="#contact"
+                            class="rounded-lg border border-zinc-700 px-6 py-3 font-medium text-zinc-300 transition hover:border-violet-500 hover:text-white">
+
+                            Contact Me
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Developer Terminal Card -->
+
+                <div class="flex justify-center md:justify-end">
+
+                    <div class="w-full max-w-md rounded-2xl border border-zinc-800 bg-zinc-900 p-6 shadow-2xl">
+
+
+                        <!-- Terminal Header -->
+
+                        <div class="mb-6 flex items-center gap-2">
+
+                            <span class="h-3 w-3 rounded-full bg-red-400"></span>
+
+                            <span class="h-3 w-3 rounded-full bg-yellow-400"></span>
+
+                            <span class="h-3 w-3 rounded-full bg-green-400"></span>
+
+                            <span class="ml-3 font-mono text-xs text-zinc-500">
+                                soham@portfolio
+                            </span>
+
+                        </div>
+
+
+                        <!-- Terminal Content -->
+
+                        <div class="font-mono text-sm leading-8">
+
+                            <p class="text-zinc-500">
+                                $ whoami
+                            </p>
+
+                            <p class="text-violet-400">
+                                soham-kadam
+                            </p>
+
+
+                            <p class="mt-3 text-zinc-500">
+                                $ currently_learning
+                            </p>
+
+                            <p class="text-zinc-300">
+                                Java
+                            </p>
+
+                            <p class="text-zinc-300">
+                                JavaScript
+                            </p>
+
+
+                            <p class="mt-3 text-zinc-500">
+                                $ goal
+                            </p>
+
+                            <p class="text-green-400">
+                                Front-End Developer
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+                ABOUT SECTION
+        ========================== -->
+
+        <section id="about" class="bg-zinc-900 py-24">
+
+            <div class="mx-auto max-w-7xl px-6">
+
+
+                <!-- Section Heading -->
+
+                <div class="mb-12">
+
+                    <p class="font-mono text-sm text-violet-400">
+                        01 / About Me
+                    </p>
+
+                    <h2 class="mt-3 text-3xl font-bold text-white md:text-4xl">
+                        A little about me
+                    </h2>
+
+                </div>
+
+
+
+                <!-- About Content -->
+
+                <div class="grid gap-10 md:grid-cols-3">
+
+
+                    <!-- Profile Image -->
+
+                    <div class="flex justify-center md:justify-start">
+
+                        <div class="profile-frame">
+
+                            <img src="images/myimage.png" alt="Soham Kadam" class="profile-image">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Main About -->
+
+                    <div class="md:col-span-2">
+
+                        <p class="text-lg leading-8 text-zinc-300">
+
+                            I'm Soham Kadam, a Computer Science student
+                            at Scaler School of Technology. I'm interested
+                            in software development and enjoy building
+                            websites from scratch.
+
+                        </p>
+
+
+                        <p class="mt-5 text-lg leading-8 text-zinc-400">
+
+                            I've completed HTML and CSS and I'm currently
+                            learning Java and JavaScript. I'm also exploring
+                            how AI works with algorithms and how technology
+                            can be used to make everyday tasks simpler.
+
+                        </p>
+
+
+                        <p class="mt-5 text-lg leading-8 text-zinc-400">
+
+                            My goal is to grow as a front-end developer
+                            while continuously exploring new technologies
+                            and improving the way I build things.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Quick Information -->
+
+                    <div class="quick-info rounded-2xl border border-zinc-800 bg-zinc-950 p-6">
+
+                        <h3 class="text-lg font-semibold text-white">
+                            Quick Info
+                        </h3>
+
+
+                        <div class="mt-6 space-y-5">
+
+
+                            <div>
+
+                                <p class="text-sm text-zinc-500">
+                                    Education
+                                </p>
+
+                                <p class="mt-1 text-zinc-300">
+                                    CSAI · Scaler School of Technology
+                                </p>
+
+                            </div>
+
+
+                            <div>
+
+                                <p class="text-sm text-zinc-500">
+                                    Currently Learning
+                                </p>
+
+                                <p class="mt-1 text-zinc-300">
+                                    Java · JavaScript
+                                </p>
+
+                            </div>
+
+
+                            <div>
+
+                                <p class="text-sm text-zinc-500">
+                                    Goal
+                                </p>
+
+                                <p class="mt-1 text-violet-400">
+                                    Front-End Developer
+                                </p>
+
+                            </div>
+
+
+                            <div>
+
+                                <p class="text-sm text-zinc-500">
+                                    Hobbies
+                                </p>
+
+                                <p class="mt-1 text-zinc-300">
+                                    Coding · Cricket · Singing
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+                SKILLS SECTION
+        ========================== -->
+
+        <section id="skills" class="bg-zinc-950 py-24">
+
+            <div class="mx-auto max-w-7xl px-6">
+
+
+                <!-- Section Heading -->
+
+                <div class="mb-12">
+
+                    <p class="font-mono text-sm text-violet-400">
+                        02 / Skills
+                    </p>
+
+                    <h2 class="mt-3 text-3xl font-bold text-white md:text-4xl">
+                        Technologies I work with
+                    </h2>
+
+                    <p class="mt-4 max-w-2xl text-zinc-400">
+
+                        Technologies I've learned and the tools I'm
+                        currently exploring as I continue developing
+                        my programming and web development skills.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Skills Grid -->
+
+                <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+
+                    <!-- HTML -->
+
+                    <div
+                        class="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            01
+                        </p>
+
+                        <h3 class="mt-4 text-xl font-semibold text-white">
+                            HTML
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-6 text-zinc-400">
+                            Building structured and semantic webpages.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- CSS -->
+
+                    <div
+                        class="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            02
+                        </p>
+
+                        <h3 class="mt-4 text-xl font-semibold text-white">
+                            CSS
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-6 text-zinc-400">
+                            Creating layouts, responsive designs and
+                            visual styling.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Java -->
+
+                    <div
+                        class="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            03
+                        </p>
+
+                        <h3 class="mt-4 text-xl font-semibold text-white">
+                            Java
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-6 text-zinc-400">
+                            Currently learning programming fundamentals
+                            and problem solving.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- JavaScript -->
+
+                    <div
+                        class="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            04
+                        </p>
+
+                        <h3 class="mt-4 text-xl font-semibold text-white">
+                            JavaScript
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-6 text-zinc-400">
+                            Currently learning JavaScript for
+                            interactive web development.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Linux -->
+
+                    <div
+                        class="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            05
+                        </p>
+
+                        <h3 class="mt-4 text-xl font-semibold text-white">
+                            Linux
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-6 text-zinc-400">
+                            Working with Linux commands and the
+                            command-line environment.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Git -->
+
+                    <div
+                        class="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            06
+                        </p>
+
+                        <h3 class="mt-4 text-xl font-semibold text-white">
+                            Git & GitHub
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-6 text-zinc-400">
+                            Learning version control and managing
+                            code repositories.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+                PROJECTS SECTION
+        ========================== -->
+
+        <section id="projects" class="bg-zinc-900 py-24">
+
+            <div class="mx-auto max-w-7xl px-6">
+
+
+                <!-- Section Heading -->
+
+                <div class="mb-12">
+
+                    <p class="font-mono text-sm text-violet-400">
+                        03 / Projects
+                    </p>
+
+                    <h2 class="mt-3 text-3xl font-bold text-white md:text-4xl">
+                        Things I've built
+                    </h2>
+
+                    <p class="mt-4 max-w-2xl text-zinc-400">
+
+                        A few projects I've created while learning
+                        web development and improving my coding skills.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Projects Grid -->
+
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+
+                    <!-- Student Profile -->
+
+                    <article
+                        class="flex flex-col rounded-2xl border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            PROJECT 01
+                        </p>
+
+                        <h3 class="mt-4 text-2xl font-semibold text-white">
+                            Student Profile
+                        </h3>
+
+                        <p class="mt-4 flex-grow leading-7 text-zinc-400">
+
+                            A beginner-friendly HTML project that displays
+                            a student's information, skills and timetable.
+                            I built it to understand HTML fundamentals
+                            such as forms, lists and page structure.
+
+                        </p>
+
+
+                        <div class="mt-6 flex flex-wrap gap-2">
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                HTML
+                            </span>
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                CSS
+                            </span>
+
+                        </div>
+
+
+                        <p class="mt-6 text-sm text-zinc-500">
+                            Repository link will be added.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- Flipkart Clone -->
+
+                    <article
+                        class="flex flex-col rounded-2xl border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            PROJECT 02
+                        </p>
+
+                        <h3 class="mt-4 text-2xl font-semibold text-white">
+                            Flipkart Clone
+                        </h3>
+
+                        <p class="mt-4 flex-grow leading-7 text-zinc-400">
+
+                            A webpage recreated from scratch to practice
+                            real-world website structure and styling.
+                            ChatGPT was used later for assistance with
+                            color and styling decisions.
+
+                        </p>
+
+
+                        <div class="mt-6 flex flex-wrap gap-2">
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                HTML
+                            </span>
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                CSS
+                            </span>
+
+                        </div>
+
+
+                        <p class="mt-6 text-sm text-zinc-500">
+                            Repository link will be added.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- Portfolio -->
+
+                    <article
+                        class="flex flex-col rounded-2xl border border-violet-500/30 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-violet-500">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            PROJECT 03
+                        </p>
+
+                        <h3 class="mt-4 text-2xl font-semibold text-white">
+                            Personal Portfolio
+                        </h3>
+
+                        <p class="mt-4 flex-grow leading-7 text-zinc-400">
+
+                            My personal portfolio website built to
+                            showcase my projects, skills, education
+                            and journey as a student learning
+                            front-end development.
+
+                        </p>
+
+
+                        <div class="mt-6 flex flex-wrap gap-2">
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                HTML
+                            </span>
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                Tailwind CSS
+                            </span>
+
+                            <span class="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300">
+                                CSS
+                            </span>
+
+                        </div>
+
+
+                        <p class="mt-6 text-sm text-violet-400">
+                            Currently building
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+                EDUCATION SECTION
+        ========================== -->
+
+        <section id="education" class="bg-zinc-950 py-24">
+
+            <div class="mx-auto max-w-7xl px-6">
+
+
+                <!-- Section Heading -->
+
+                <div class="mb-12">
+
+                    <p class="font-mono text-sm text-violet-400">
+                        04 / Education
+                    </p>
+
+                    <h2 class="mt-3 text-3xl font-bold text-white md:text-4xl">
+                        My education
+                    </h2>
+
+                </div>
+
+
+
+                <!-- Education Card -->
+
+                <div class="max-w-3xl rounded-2xl border border-zinc-800 bg-zinc-900 p-8">
+
+                    <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+
+                        <div>
+
+                            <p class="font-mono text-sm text-violet-400">
+                                2026 — 2030
+                            </p>
+
+                            <h3 class="mt-3 text-2xl font-semibold text-white">
+                                CSAI
+                            </h3>
+
+                            <p class="mt-2 text-lg text-zinc-300">
+                                Scaler School of Technology
+                            </p>
+
+                        </div>
+
+
+                        <span class="w-fit rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-400">
+                            Undergraduate
+                        </span>
+
+                    </div>
+
+
+                    <p class="mt-6 leading-7 text-zinc-400">
+
+                        Currently studying computer science with a focus
+                        on programming, web development, mathematics and
+                        developing problem-solving skills.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+                CONTACT SECTION
+        ========================== -->
+
+        <section id="contact" class="bg-zinc-900 py-24">
+
+            <div class="mx-auto max-w-7xl px-6">
+
+
+                <!-- Contact Heading -->
+
+                <div class="mx-auto max-w-2xl text-center">
+
+                    <p class="font-mono text-sm text-violet-400">
+                        05 / Contact
+                    </p>
+
+                    <h2 class="mt-3 text-3xl font-bold text-white md:text-4xl">
+                        Let's connect
+                    </h2>
+
+                    <p class="mt-5 leading-7 text-zinc-400">
+
+                        I'm always interested in learning, building
+                        new things and connecting with people who enjoy
+                        technology.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Contact Links -->
+
+                <div class="mx-auto mt-12 grid max-w-4xl gap-5 md:grid-cols-3">
+
+
+                    <!-- Email -->
+
+                    <a href="mailto:sohamofficial222@gmail.com"
+                        class="rounded-2xl border border-zinc-800 bg-zinc-950 p-6 text-center transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            EMAIL
+                        </p>
+
+                        <p class="mt-3 break-all text-sm text-zinc-300">
+                            sohamofficial222@gmail.com
+                        </p>
+
+                    </a>
+
+
+
+                    <!-- GitHub -->
+
+                    <a href="https://github.com/sohamofficial222-ctrl" target="_blank" rel="noopener noreferrer"
+                        class="rounded-2xl border border-zinc-800 bg-zinc-950 p-6 text-center transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            GITHUB
+                        </p>
+
+                        <p class="mt-3 text-sm text-zinc-300">
+                            View my GitHub
+                        </p>
+
+                    </a>
+
+
+
+                    <!-- LinkedIn -->
+
+                    <a href="https://www.linkedin.com/in/soham-kadam-50043742/" target="_blank"
+                        rel="noopener noreferrer"
+                        class="rounded-2xl border border-zinc-800 bg-zinc-950 p-6 text-center transition hover:-translate-y-1 hover:border-violet-500/50">
+
+                        <p class="font-mono text-sm text-violet-400">
+                            LINKEDIN
+                        </p>
+
+                        <p class="mt-3 text-sm text-zinc-300">
+                            View my LinkedIn
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+            FOOTER
+    ========================== -->
+
+    <footer class="border-t border-zinc-800 bg-zinc-950">
+
+        <div
+            class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-center md:flex-row md:text-left">
+
+            <p class="text-sm text-zinc-500">
+                © 2026 Soham Kadam. Built while learning and exploring.
+            </p>
+
+
+            <div class="flex gap-6">
+
+                <a href="https://github.com/sohamofficial222-ctrl" target="_blank" rel="noopener noreferrer"
+                    class="text-sm text-zinc-500 transition hover:text-white">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/soham-kadam-50043742/" target="_blank" rel="noopener noreferrer"
+                    class="text-sm text-zinc-500 transition hover:text-white">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:sohamofficial222@gmail.com" class="text-sm text-zinc-500 transition hover:text-white">
+                    Email
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
